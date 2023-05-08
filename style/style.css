@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
 @keyframes moveUpDown {
   0% {
     transform: translateY(0px);
@@ -12,6 +21,7 @@
 
 .hand {
   animation: moveUpDown 1s linear infinite;
+  display: flex;
 }
 
 @keyframes growShrink {
@@ -31,6 +41,10 @@
   text-align: center;
 }
 
+.qr-board img {
+  width: 10%;
+}
+
 main {
   background-image: url("images/pc-bg.960f5846.png");
   background-repeat: no-repeat;
@@ -39,4 +53,44 @@ main {
   /* Additional styles for the <main> element */
   width: 100%;
   height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #d93b3e;
+  box-shadow: 0 5px 10px 1px #00000029;
+  font-size: 20px;
+}
+
+.header div {
+  width: 824.46px;
+  margin: 0 auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header img {
+  display: block;
+  width: 178px;
+}
+
+.header div p {
+  position: absolute;
+  right: 0;
+  transform: translate(96%);
+  font-size: 20px;
+  color: #f8fcff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header .headset{
+    width: 30.12px;
+    margin-right: 9px;
+    display: block
 }
