@@ -123,7 +123,7 @@ main {
   display: block;
 }
 
-.hero .left .item {
+.body .left .item {
   margin-bottom: 32px;
   margin-left: 26px;
   width: 332.21px;
@@ -147,4 +147,30 @@ main {
   border-radius: 50%;
   width: 60px;
   height: 60px;
+}
+
+.signal .span-box {
+  position: absolute;
+  top: 46%;
+  left: 7%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: flex-end;
+}
+
+.signal .span-box span {
+  background: rgb(255, 167, 31);
+  width: 5px;
+  height: 11px;
+  display: block;
+  border-radius: 20px;
+  margin-right: 2px;
+}
+
+.bar-2 {
+  height: 14px !important;
+}
+
+.bar-3 {
+    height: 18px !important;
 }
