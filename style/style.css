@@ -28,10 +28,10 @@
   0% {
     transform: scale(0.95);
   }
-  20% {
+  15% {
     transform: scale(1);
   }
-  80% {
+  85% {
     transform: scale(1);
   }
   100% {
@@ -170,6 +170,12 @@ main {
   margin-right: 2px;
 }
 
+.right {
+    border-left: 1px solid #DCE7F2;
+    margin-left: 30px;
+    height: 380px;
+}
+
 .bar-2 {
   height: 14px !important;
 }
@@ -187,6 +193,7 @@ main {
   width: 100%;
   height: auto;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .btn span {
@@ -199,6 +206,7 @@ main {
   font-size: 16px;
   line-height: 1;
   z-index: 1;
+  cursor: pointer;
 }
 
 .body .left .item .btn {
@@ -215,7 +223,6 @@ main {
   width: 283.05px;
   height: 355.37px;
   padding-left: 33px;
-  margin-left: 30px;
 }
 
 .bottom-line {
@@ -231,7 +238,7 @@ main {
 }
 
 .center {
-  margin-top: -80px;
+  margin-top: 30px;
   text-align: center;
 }
 
