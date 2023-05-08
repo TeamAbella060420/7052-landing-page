@@ -311,7 +311,7 @@ main {
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 370px) {
   .qr-board,
   .canvas-container {
     display: none;
@@ -344,6 +344,7 @@ main {
   .bottom-line {
     width: 300px;
     left: 16%;
+    top: 72%;
   }
 
   .disclaim {
