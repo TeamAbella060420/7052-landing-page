@@ -270,3 +270,26 @@ main {
 
 /* responsive design */
 
+@media (max-width: 991px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .qr-board {
+        display: none;
+    }
+
+    .canvas-container {
+        display: none;
+    }
+
+    .header div {
+        width: 400px;
+    }
+
+    .right {
+        border-left: none;
+    }
+}
