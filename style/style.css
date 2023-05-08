@@ -269,25 +269,108 @@ main {
 
 /* responsive design */
 
-@media (min-width: 1074) {
+@media only screen and (max-width: 1200px) {
   .header div {
     width: 650px;
   }
   .bottom-line {
-    top: 60%;
+    top: 44%;
   }
 }
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 810px) {
   .header div {
     width: 452px;
   }
 
   .bottom-line {
-    top: 50%;
+    top: 45%;
   }
 
   .center {
     margin-top: 60px;
   }
+
+  .right {
+    margin-left: -32px;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header div {
+    width: 400px;
+  }
+
+  .hero {
+    width: 860px;
+  }
+
+  .bottom-line {
+    top: 60%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .qr-board,
+  .canvas-container {
+    display: none;
+  }
+
+  .header img {
+    width: 130px;
+  }
+
+  .header div {
+    width: 150px;
+  }
+
+  .header .headset {
+    width: 20px;
+  }
+
+  .header .hand {
+    width: 20px;
+  }
+
+  .header div p {
+    font-size: 11px;
+  }
+
+  .hero .left .title {
+    width: 364px;
+  }
+
+  .bottom-line {
+    width: 300px;
+    left: 16%;
+  }
+
+  .disclaim {
+    width: 350px;
+    position: absolute;
+    left: 7%;
+  }
+
+  .body .left .item {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .body .left .item .btn {
+    width: 47%;
+    right: -10px;
+  }
+
+  .hero .signal img {
+    width: 45px;
+    height: 45px;
+    top: -4px;
+    left: 0px;
+  }
+
+  .body .left {
+    padding-top: 145px;
+  }
+
 }
