@@ -39,7 +39,8 @@
   }
 }
 
-.qr-board {
+.qr-board,
+.canvas-container img {
   animation: growShrink 3s linear infinite;
   text-align: center;
 }
@@ -261,6 +262,7 @@ main {
 }
 
 .canvas-container img {
-    width: 178px;
-    height: 175px;
+  width: 178px;
+  height: 175px;
+  text-align: center;
 }
