@@ -26,13 +26,16 @@
 
 @keyframes growShrink {
   0% {
+    transform: scale(0.95);
+  }
+  20% {
     transform: scale(1);
   }
-  50% {
-    transform: scale(1.2);
+  80% {
+    transform: scale(1);
   }
   100% {
-    transform: scale(1);
+    transform: scale(0.95);
   }
 }
 
@@ -206,4 +209,32 @@ main {
   height: 100%;
   box-shadow: 0 6px 6px 4px #54677e69;
   border-radius: 50px;
+}
+
+.qr-board {
+  width: 283.05px;
+  height: 355.37px;
+  padding-left: 33px;
+  margin-left: 30px;
+}
+
+.bottom-line {
+  width: 824.46px;
+  position: absolute;
+  top: 50%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center {
+  margin-top: -80px;
+  text-align: center;
+}
+
+.disclaim {
+  width: 525px;
 }
