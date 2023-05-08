@@ -267,29 +267,27 @@ main {
   text-align: center;
 }
 
-
 /* responsive design */
 
+@media (min-width: 1074) {
+  .header div {
+    width: 650px;
+  }
+  .bottom-line {
+    top: 60%;
+  }
+}
+
 @media (max-width: 991px) {
+  .header div {
+    width: 452px;
+  }
 
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    .qr-board {
-        display: none;
-    }
+  .bottom-line {
+    top: 50%;
+  }
 
-    .canvas-container {
-        display: none;
-    }
-
-    .header div {
-        width: 400px;
-    }
-
-    .right {
-        border-left: none;
-    }
+  .center {
+    margin-top: 60px;
+  }
 }
