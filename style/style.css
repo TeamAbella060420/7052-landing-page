@@ -46,7 +46,7 @@
 }
 
 main {
-  background-image: url("images/pc-bg.960f5846.png");
+  background-image: url(../images/pc-bg.960f5846.png);
   background-repeat: no-repeat;
   background-size: cover;
   /* Additional styles for the <main> element */
@@ -100,4 +100,19 @@ main {
   bottom: -55px;
   width: 32px;
   display: block;
+}
+
+.body {
+  width: 824.46px;
+  margin: 0 auto;
+  padding-top: 46px;
+}
+
+.hero {
+  display: flex;
+}
+
+.body .left {
+  padding-top: 13px;
+  padding-left: 40px;
 }
