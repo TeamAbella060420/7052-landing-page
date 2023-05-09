@@ -336,10 +336,15 @@ main {
 
   .header .hand {
     width: 20px;
+    left: 25px;
   }
 
   .header div p {
-    font-size: 11px;
+    font-size: 16px;
+    color: #f8fcff;
+    font-weight: 500;
+    position: absolute;
+    right: -60px;
   }
 
   .hero .left .title {
@@ -385,7 +390,7 @@ main {
   }
 
   .h5-pic {
-    margin-left: 30px;
+    margin-left: 45px;
   }
 
   .body .left {
