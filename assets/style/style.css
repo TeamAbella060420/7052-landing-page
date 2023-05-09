@@ -311,7 +311,7 @@ main {
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 430px) {
   .qr-board,
   .canvas-container {
     display: none;
@@ -372,5 +372,9 @@ main {
 
   .body .left {
     padding-top: 145px;
+  }
+
+  .h5-pic img{
+    width: 50%;
   }
 }
