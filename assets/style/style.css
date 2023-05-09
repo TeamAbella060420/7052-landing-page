@@ -269,22 +269,34 @@ main {
 
 /* responsive design */
 
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
+  .header .hand {
+    left: 39px;
+    position: absolute;
+    bottom: -55px;
+    width: 32px;
+    display: block;
+  }
   .header div {
     width: 650px;
   }
   .bottom-line {
     top: 44%;
   }
-}
-
-@media only screen and (max-width: 810px) {
-  .header div {
-    width: 452px;
-  }
 
   .bottom-line {
-    top: 45%;
+    top: 58%;
+  }
+}
+
+@media (max-width: 810px) {
+  .bottom-line {
+    position: absolute;
+    top: 59%;
+    width: 686.46px;
+  }
+  .header div {
+    width: 452px;
   }
 
   .center {
@@ -297,10 +309,15 @@ main {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   main {
     width: 110%;
     height: 110vh;
+  }
+
+  body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: hidden; /* Hide vertical scrollbar */
   }
 
   .header div {
@@ -312,24 +329,30 @@ main {
   }
 
   .bottom-line {
-    top: 60%;
+    top: 55%;
+    width: 600px;
+    left: 10%;
   }
 
-  header img {
-    width: 195px;
-    position: absolute;
-    left: 65px;
+  .header .hand {
+    left: 35px;
+  }
+
+  .disclaim {
+    width: 525px;
+    margin-top: 50px;
+    margin-right: 90px;
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media (max-width: 430px) {
   main {
     background-image: url(/assets/images/h5-bg.601c21c6.png); /* Replace with the path to the new background image */
   }
 
   body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
-    /* overflow-y: hidden; Hide vertical scrollbar */
+    overflow-y: hidden; /* Hide vertical scrollbar */
   }
 
   .qr-board,
