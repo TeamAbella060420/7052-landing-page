@@ -14,3 +14,20 @@ function showImageOnMobile() {
 
   // Call the function initially to set the image visibility based on the initial window size
   showImageOnMobile();
+
+  function replaceTextOnScreenResize() {
+    var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+    if (screenWidth <= 430) {
+      var textContainer = document.getElementById("textContainer");
+      var text = textContainer.innerHTML;
+      text = text.replace("24小时在线客服", "客服");
+      textContainer.innerHTML = text;
+    }
+  }
+
+  // Call the function initially
+  replaceTextOnScreenResize();
+
+  // Add event listener to call the function when the screen is resized
+  window.addEventListener("resize", replaceTextOnScreenResize);
