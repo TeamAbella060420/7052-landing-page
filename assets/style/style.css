@@ -381,6 +381,7 @@ main {
 
   .h5-pic img{
     width: 45%;
+    animation: growShrink 3s linear infinite;
   }
 
   .h5-pic {
