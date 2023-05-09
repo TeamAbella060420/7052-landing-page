@@ -298,6 +298,11 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+  main {
+    width: 110%;
+    height: 110vh;
+  }
+
   .header div {
     width: 400px;
   }
@@ -309,6 +314,12 @@ main {
   .bottom-line {
     top: 60%;
   }
+
+  header img {
+    width: 195px;
+    position: absolute;
+    left: 65px;
+  }
 }
 
 @media only screen and (max-width: 430px) {
@@ -318,7 +329,7 @@ main {
 
   body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
-    overflow-y: hidden; /* Hide vertical scrollbar */
+    /* overflow-y: hidden; Hide vertical scrollbar */
   }
 
   .qr-board,
@@ -388,7 +399,7 @@ main {
     padding-top: 145px;
   }
 
-  .h5-pic img{
+  .h5-pic img {
     width: 45%;
     animation: growShrink 3s linear infinite;
   }
