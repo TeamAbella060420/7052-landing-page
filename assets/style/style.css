@@ -362,6 +362,7 @@ main {
 
   .header img {
     width: 130px;
+    margin-right: 37px;
   }
 
   .header div {
@@ -382,7 +383,7 @@ main {
     color: #f8fcff;
     font-weight: 500;
     position: absolute;
-    right: -60px;
+    right: -38px;
   }
 
   .hero .left .title {
@@ -433,5 +434,12 @@ main {
 
   .body .left {
     padding-top: 35px;
+  }
+}
+
+@media (max-width: 370px) {
+  body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: hidden; /* Hide vertical scrollbar */
   }
 }
