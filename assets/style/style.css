@@ -312,6 +312,11 @@ main {
 }
 
 @media only screen and (max-width: 430px) {
+  body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+  }
+
   .qr-board,
   .canvas-container {
     display: none;
@@ -375,6 +380,14 @@ main {
   }
 
   .h5-pic img{
-    width: 50%;
+    width: 45%;
+  }
+
+  .h5-pic {
+    margin-left: 30px;
+  }
+
+  .body .left {
+    padding-top: 35px;
   }
 }
