@@ -37,13 +37,16 @@ function replaceImageOnScreenResize() {
     var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     var bottomLineImage = document.querySelector('.bottom-line');
     var imgElement = document.querySelector('.disclaim');
+    var pcTitle = document.querySelector('.title');
 
     if (screenWidth <= 430) {
         bottomLineImage.src = '/assets/images/h5-line.17103383.png';
         imgElement.src = '/assets/images/h5-tips.f68add52.png'; // Replace with the path to the new bottom line image
+        pcTitle.src = '/assets/images/h5-title.4f3219a5.png'; // Replace with the path to the new bottom line image
     } else {
         bottomLineImage.src = '/assets/images/pc-line.1c6aee66.png';
         imgElement.src = '/assets/images/pc-tips.7ede64e9.png' // Original bottom line image path
+        pcTitle.src = '/assets/images/pc-title.94d8373c.png' // Original bottom line image path
     }
 }
 
