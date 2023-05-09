@@ -18,7 +18,7 @@ showImageOnMobile();
 function replaceTextOnScreenResize() {
     var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-    if (screenWidth <= 430) {
+    if (screenWidth <= 768) {
         var textContainer = document.getElementById("textContainer");
         var text = textContainer.innerHTML;
         text = text.replace("24小时在线客服", "客服");
@@ -39,7 +39,7 @@ function replaceImageOnScreenResize() {
     var imgElement = document.querySelector('.disclaim');
     var pcTitle = document.querySelector('.title');
 
-    if (screenWidth <= 430) {
+    if (screenWidth <= 768) {
         bottomLineImage.src = '/assets/images/h5-line.17103383.png';
         imgElement.src = '/assets/images/h5-tips.f68add52.png'; // Replace with the path to the new bottom line image
         pcTitle.src = '/assets/images/h5-title.4f3219a5.png'; // Replace with the path to the new bottom line image
