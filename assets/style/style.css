@@ -50,7 +50,7 @@
 }
 
 main {
-  background-image: url(../images/pc-bg.960f5846.png);
+  background-image: url(/assets/images/pc-bg.960f5846.png);
   background-repeat: no-repeat;
   background-size: cover;
   /* Additional styles for the <main> element */
@@ -163,7 +163,7 @@ main {
 }
 
 .signal .span-box span {
-  background: rgb(255, 167, 31);
+  background: #0ea725;
   width: 5px;
   height: 11px;
   display: block;
@@ -312,6 +312,10 @@ main {
 }
 
 @media only screen and (max-width: 430px) {
+  main {
+    background-image: url(/assets/images/h5-bg.601c21c6.png); /* Replace with the path to the new background image */
+  }
+
   body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
     overflow-y: hidden; /* Hide vertical scrollbar */
@@ -348,13 +352,13 @@ main {
   }
 
   .hero .left .title {
-    width: 364px;
+    width: 380px;
   }
 
   .bottom-line {
     width: 300px;
     left: 16%;
-    top: 72%;
+    top: 67%;
   }
 
   .disclaim {
